@@ -1,0 +1,14 @@
+// Import variables
+
+@import "../bases/variables";
+
+#accomodations {
+  background: $grey-background;
+
+  .container-1280 {
+    padding: 50px 15px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

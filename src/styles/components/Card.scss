@@ -1,0 +1,39 @@
+// Import variables
+
+@import "../bases/variables";
+
+.card {
+  background: $white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px -2px #0000001a;
+  box-shadow: 0px 4px 6px -1px #0000001a;
+
+  a {
+    img {
+      height: 250px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+  
+    > div {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h2 {
+        font-size: 20px;
+        color: $dark-text;
+      }
+
+      > p:nth-child(2){
+        color:$light-text;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+
+      
+    }
+  }
+}

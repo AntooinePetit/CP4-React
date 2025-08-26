@@ -5,7 +5,8 @@
     "location": "Marseille, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?apartment",
-      "https://source.unsplash.com/800x600/?apartment"
+      "https://source.unsplash.com/800x600/?apartment",
+      "/images/marseille.jpg"
     ],
     "tags": [
       "Vue mer",
@@ -30,7 +31,8 @@
     "location": "Lyon, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?studio",
-      "https://source.unsplash.com/800x600/?studio"
+      "https://source.unsplash.com/800x600/?studio",
+      "/images/loft.jpg"
     ],
     "tags": [
       "Centre-ville",
@@ -54,7 +56,8 @@
     "location": "Bordeaux, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?loft",
-      "https://source.unsplash.com/800x600/?loft"
+      "https://source.unsplash.com/800x600/?loft",
+      "/images/loft.jpg"
     ],
     "tags": [
       "Design",
@@ -78,7 +81,8 @@
     "location": "Quimper, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?house",
-      "https://source.unsplash.com/800x600/?house"
+      "https://source.unsplash.com/800x600/?house",
+      "/images/chalet.jpg"
     ],
     "tags": [
       "Campagne",
@@ -103,7 +107,8 @@
     "location": "Nice, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?terrace",
-      "https://source.unsplash.com/800x600/?terrace"
+      "https://source.unsplash.com/800x600/?terrace",
+      "/images/pool.jpg"
     ],
     "tags": [
       "Terrasse",
@@ -127,7 +132,8 @@
     "location": "Annecy, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?cabin",
-      "https://source.unsplash.com/800x600/?cabin"
+      "https://source.unsplash.com/800x600/?cabin",
+      "/images/chalet.jpg"
     ],
     "tags": [
       "Nature",
@@ -151,7 +157,8 @@
     "location": "Strasbourg, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?city",
-      "https://source.unsplash.com/800x600/?city"
+      "https://source.unsplash.com/800x600/?city",
+      "/images/loft.jpg"
     ],
     "tags": [
       "Centre-ville",
@@ -176,7 +183,8 @@
     "location": "Aix-en-Provence, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?pool",
-      "https://source.unsplash.com/800x600/?pool"
+      "https://source.unsplash.com/800x600/?pool",
+      "/images/pool.jpg"
     ],
     "tags": [
       "Piscine",
@@ -201,7 +209,8 @@
     "location": "Lille, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?student-room",
-      "https://source.unsplash.com/800x600/?student-room"
+      "https://source.unsplash.com/800x600/?student-room",
+      "/images/loft.jpg"
     ],
     "tags": [
       "Pratique",
@@ -225,7 +234,8 @@
     "location": "Chamonix, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?chalet",
-      "https://source.unsplash.com/800x600/?chalet"
+      "https://source.unsplash.com/800x600/?chalet",
+      "/images/chalet.jpg"
     ],
     "tags": [
       "Ski",
@@ -250,7 +260,8 @@
     "location": "Paris, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?paris",
-      "https://source.unsplash.com/800x600/?paris"
+      "https://source.unsplash.com/800x600/?paris",
+      "/images/paris.jpg"
     ],
     "tags": [
       "Tour Eiffel",
@@ -275,7 +286,8 @@
     "location": "Nantes, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?garden",
-      "https://source.unsplash.com/800x600/?garden"
+      "https://source.unsplash.com/800x600/?garden",
+      "/images/chamonix.jpg"
     ],
     "tags": [
       "Famille",
@@ -300,7 +312,8 @@
     "location": "Montpellier, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?minimalist",
-      "https://source.unsplash.com/800x600/?minimalist"
+      "https://source.unsplash.com/800x600/?minimalist",
+      "/images/paris.jpg"
     ],
     "tags": [
       "Minimaliste",
@@ -324,7 +337,8 @@
     "location": "Marrakech, Maroc",
     "pictures": [
       "https://source.unsplash.com/800x600/?morocco",
-      "https://source.unsplash.com/800x600/?morocco"
+      "https://source.unsplash.com/800x600/?morocco",
+      "/images/marseille.jpg"
     ],
     "tags": [
       "Exotique",
@@ -348,7 +362,8 @@
     "location": "Arcachon, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?arcachon",
-      "https://source.unsplash.com/800x600/?arcachon"
+      "https://source.unsplash.com/800x600/?arcachon",
+      "/images/chamonix.jpg"
     ],
     "tags": [
       "Original",
@@ -372,7 +387,8 @@
     "location": "Toulouse, France",
     "pictures": [
       "https://source.unsplash.com/800x600/?retro",
-      "https://source.unsplash.com/800x600/?retro"
+      "https://source.unsplash.com/800x600/?retro",
+      "/images/loft.jpg"
     ],
     "tags": [
       "Vintage",

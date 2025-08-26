@@ -1,15 +1,15 @@
 // Import variables
 
-@import 'variables';
+@import "variables";
 
 // Import fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 // Uniformisation document
 
-*{
+* {
   font-family: $font;
   margin: 0;
   padding: 0;
@@ -22,11 +22,12 @@ h1 {
   font-weight: 700;
 }
 
-h2{
+h2,
+h3 {
   font-weight: 600;
 }
 
-p{
+p {
   font-weight: 400;
 }
 
@@ -36,7 +37,8 @@ img {
 
 .tag {
   background: $gradient;
-  padding: 5px 12px;
+  font-size: 14px;
+  padding: 10px 20px;
   color: $white;
   border-radius: 1000px;
   width: fit-content;
@@ -47,4 +49,3 @@ img {
   margin: auto;
   padding: 15px 0;
 }
-

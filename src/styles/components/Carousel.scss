@@ -1,0 +1,35 @@
+// Import variables
+
+@import '../bases/variables';
+
+#carousel {
+  position: relative;
+
+  img {
+    height: 400px;
+  }
+
+  #buttons {
+    position: absolute;
+    justify-self: anchor-center;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-self: anchor-center;
+
+    button {
+      border-radius: 10000px;
+      background: hsl(0, 0%, 100%, 0.8);
+      border: none;
+      padding: 12px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      svg {
+        color: $dark-text;
+      }
+    }
+  }
+}

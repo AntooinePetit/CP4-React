@@ -1,0 +1,13 @@
+@import '../bases//variables';
+
+nav {
+  ul {
+    display: flex;
+    align-items: center;
+
+    a {
+      padding: 15px 20px;
+      color: $dark-text;
+    }
+  }
+}

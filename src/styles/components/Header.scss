@@ -1,0 +1,19 @@
+@import '../bases/variables';
+
+header {
+  .container-1280 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    #logo {
+      font-family: $logo-font;
+      color: $logo-pink;
+      font-size: 24px;
+    }
+
+    #burgermenu {
+      display: none;
+    }
+  }
+}

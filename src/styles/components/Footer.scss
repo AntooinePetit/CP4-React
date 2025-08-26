@@ -1,0 +1,38 @@
+@import "../bases/variables";
+
+footer{
+  background: $dark;
+  padding: 50px 0;
+
+  .container-1280 {
+    div {
+      display: flex;
+      margin-bottom: 40px;
+      
+      ul {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .group-title {
+          color: $white;
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+
+        a {
+          color: $grey-text;
+        }
+      }
+    }
+
+    p{
+      text-align: center;
+      color: #9CA3AF;
+      padding-top: 50px;
+      border-top: 1px solid #374151;
+    }
+  }
+}

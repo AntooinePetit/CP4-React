@@ -1,7 +1,17 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 const Home = () => {
   return (
-    <h1 className="tag">Bienvenue sur ma page</h1>
-  )
-}
+    <>
+      <Header />
 
-export default Home
+      <main>
+      </main>
+
+      <Footer />
+    </>
+  );
+};
+
+export default Home;

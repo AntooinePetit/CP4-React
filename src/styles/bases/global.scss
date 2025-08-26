@@ -1,0 +1,46 @@
+// Import variables
+
+@import 'variables';
+
+// Import fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+// Uniformisation document
+
+*{
+  font-family: $font;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2{
+  font-weight: 600;
+}
+
+p{
+  font-weight: 400;
+}
+
+.tag {
+  background: $gradient;
+  padding: 5px 12px;
+  color: $white;
+  border-radius: 1000px;
+  width: fit-content;
+}
+
+.container-1280 {
+  max-width: 1280px;
+  margin: auto;
+  padding: 15px 0;
+}
+

@@ -1,7 +1,18 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 const NotFound = () => {
   return (
-    <h1>Page introuvable</h1>
-  )
-}
+    <>
+      <Header />
 
-export default NotFound
+      <main>
+        <h1>Page introuvable</h1>
+      </main>
+
+      <Footer />
+    </>
+  );
+};
+
+export default NotFound;

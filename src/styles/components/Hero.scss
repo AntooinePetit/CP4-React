@@ -1,0 +1,24 @@
+// Import variables
+
+@import "../bases/variables";
+
+#hero {
+  background: linear-gradient(100.62deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 80px 0;
+
+  .container-1280 {
+    text-align: center;
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 20px;
+      color: $light-text;
+    }
+  }
+}

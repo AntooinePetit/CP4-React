@@ -1,7 +1,18 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 const Details = () => {
   return (
-    <p>test</p>
-  )
-}
+    <>
+      <Header />
 
-export default Details
+      <main>
+        <p>test</p>
+      </main>
+
+      <Footer />
+    </>
+  );
+};
+
+export default Details;

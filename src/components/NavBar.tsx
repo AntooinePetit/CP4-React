@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/components/NavBar.scss";
 
-const NavBar = () => {
+interface NavBarProps {
+  setClass?: boolean;
+}
+
+const NavBar = ({ setClass }: NavBarProps) => {
   return (
-    <nav>
+    <nav className={setClass ? "active" : ""}>
       <ul>
         <li>
           <Link to="/">Accueil</Link>

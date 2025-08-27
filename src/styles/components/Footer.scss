@@ -1,14 +1,15 @@
 @import "../bases/variables";
 
-footer{
+footer {
   background: $dark;
   padding: 50px 0;
 
   .container-1280 {
+    padding: 0 15px;
     div {
       display: flex;
       margin-bottom: 40px;
-      
+
       ul {
         width: 33%;
         display: flex;
@@ -28,11 +29,26 @@ footer{
       }
     }
 
-    p{
+    p {
       text-align: center;
-      color: #9CA3AF;
+      color: #9ca3af;
       padding-top: 50px;
       border-top: 1px solid #374151;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    .container-1280 {
+      div {
+        flex-direction: column;
+        gap: 20px;
+
+        ul {
+          width: 100%;
+        }
+      }
     }
   }
 }

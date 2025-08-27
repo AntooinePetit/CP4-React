@@ -8,7 +8,7 @@ type CarouselProps = {
 
 const Carousel = ({ pictures }: CarouselProps) => {
   const [index, setIndex] = useState(0);
-  console.log(index)
+  console.log(index);
   function nextPicture() {
     if (index + 1 > pictures.length - 1) {
       setIndex(0);

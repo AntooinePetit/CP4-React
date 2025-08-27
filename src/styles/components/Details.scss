@@ -1,11 +1,12 @@
-// Import variables
+// Import variables & animations
 
 @import "../bases/variables";
+@import "../bases/animations";
 
 #detail {
   max-width: 900px;
   margin: auto;
-  padding: 50px 15px 500px 15px;
+  padding: 50px 15px 100px 15px;
 
   #infos {
     padding: 25px;
@@ -58,6 +59,7 @@
       padding: 16px;
       border: 1px solid $grey-border;
       border-radius: 16px;
+      position: relative;
 
       button {
         display: flex;
@@ -77,13 +79,16 @@
       button {
         margin-bottom: 20px;
       }
+      > :nth-child(2) {
+        transform-origin: top;
+        animation: grow-in 0.5s ease forwards;
+      }
     }
 
     #description {
       > p {
         display: none;
       }
-
     }
 
     .active {
@@ -91,7 +96,7 @@
         display: block !important;
       }
     }
-    
+
     #equipments {
       div {
         display: none;
@@ -114,7 +119,18 @@
       > div {
         display: grid !important;
       }
+    }
+  }
+}
 
+@media screen and (max-width: 767px) {
+  #detail {
+    #infos {
+      #equipments {
+        div {
+          grid-template-columns: 1fr;
+        }
+      }
     }
   }
 }

@@ -1,11 +1,12 @@
-@import '../bases/variables';
+@import "../bases/variables";
 
 header {
   .container-1280 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 0 15px;
+
     #logo {
       font-family: $logo-font;
       color: $logo-pink;
@@ -14,6 +15,20 @@ header {
 
     #burgermenu {
       display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    .container-1280 {
+      #burgermenu {
+        display: block;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 }

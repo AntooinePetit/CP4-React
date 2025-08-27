@@ -24,7 +24,7 @@ const Carousel = ({ pictures }: CarouselProps) => {
   }
   return (
     <div id="carousel">
-      <img src={pictures[index]} alt="" />
+      <img src={pictures[index]} alt={`Photo du logement, numéro ${index}`} />
       <div id="buttons">
         <button onClick={prevPicture}>
           <ArrowLeft />

@@ -16,7 +16,7 @@ const Card = ({ id, title, location, picture, tags, rating }: CardProps) => {
   return (
     <article className="card">
       <Link to={`/logement/${id}`}>
-        <img src={picture[2]} alt={title} />
+        <img src={picture[0]} alt={title} />
         <div>
           <h2>{title}</h2>
           <p>

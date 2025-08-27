@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import "../styles/components/NotFound.scss";
 
 const NotFound = () => {
+  document.title = "Page introuvable";
   return (
     <>
       <Header />

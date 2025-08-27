@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 
 const Home = () => {
+  document.title = "Kasa";
   return (
     <>
       <Header />

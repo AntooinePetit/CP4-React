@@ -7,7 +7,8 @@ const Accomodations = () => {
     <section id="accomodations">
       <div className="container-1280">
         {data.map((accomodation) => (
-          <Card 
+          <Card
+            key={accomodation.id}
             id={accomodation.id}
             title={accomodation.title}
             location={accomodation.location}

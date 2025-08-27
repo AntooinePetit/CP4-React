@@ -25,7 +25,7 @@ const Card = ({ id, title, location, picture, tags, rating }: CardProps) => {
           </p>
           <div>
             {tags.map((tag) => (
-              <p className="tag">{tag}</p>
+              <p className="tag" key={tag}>{tag}</p>
             ))}
           </div>
           <p>

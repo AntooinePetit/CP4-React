@@ -12,6 +12,7 @@ const Details = () => {
   if (acco) {
     const { title, location, pictures, tags, host, description, equipments } =
       acco;
+    document.title = title;
     return (
       <>
         <Header />
@@ -27,7 +28,7 @@ const Details = () => {
               </p>
               <div id="tags">
                 {tags.map((tag) => (
-                  <p className="tag">{tag}</p>
+                  <p className="tag" key={tag}>{tag}</p>
                 ))}
               </div>
               <div id="host-infos">
@@ -57,6 +58,7 @@ const Details = () => {
       </>
     );
   } else {
+    document.title = "Logement introuvable";
     return (
       <>
         <Header />

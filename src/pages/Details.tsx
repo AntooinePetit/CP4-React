@@ -1,6 +1,7 @@
 import {
   AirVent,
   ArrowDown,
+  ArrowUp,
   BrickWallFire,
   Cable,
   Coffee,
@@ -102,14 +103,14 @@ const Details = () => {
               <div id="description" className={isActiveDesc ? "active" : ""}>
                 <button onClick={showDesc}>
                   <h2>Description</h2>
-                  <ArrowDown size={16} />
+                  {isActiveDesc ? <ArrowUp size={16} /> : <ArrowDown size={16} />}
                 </button>
                 <p>{description}</p>
               </div>
               <div id="equipments" className={isActiveEquip ? "active" : ""}>
                 <button onClick={showEquip}>
                   <h2>Équipements</h2>
-                  <ArrowDown size={16} />
+                  {isActiveEquip ? <ArrowUp size={16} /> : <ArrowDown size={16} />}
                 </button>
                 <div>
                   {equipments.map((equipment) => (

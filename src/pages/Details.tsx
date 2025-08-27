@@ -114,7 +114,7 @@ const Details = () => {
                 <div>
                   {equipments.map((equipment) => (
                     <p key={equipment}>
-                      {icons[equipment as keyof typeof icons]}
+                      {icons[equipment as keyof typeof icons] /* Sécurité de typage (nécessaire en TS) */} 
                       {equipment}
                     </p>
                   ))}

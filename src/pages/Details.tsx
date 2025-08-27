@@ -1,4 +1,26 @@
-import { ArrowDown, MapPin } from "lucide-react";
+import {
+  AirVent,
+  ArrowDown,
+  BrickWallFire,
+  Cable,
+  Coffee,
+  CookingPot,
+  Droplets,
+  Flame,
+  FlameKindling,
+  Hamburger,
+  Heater,
+  MapPin,
+  SeparatorHorizontal,
+  Toilet,
+  ToyBrick,
+  Trees,
+  Tv,
+  Utensils,
+  WashingMachine,
+  WavesLadder,
+  Wifi,
+} from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
@@ -13,6 +35,31 @@ const Details = () => {
     const { title, location, pictures, tags, host, description, equipments } =
       acco;
     document.title = title;
+    const icons = {
+      Wifi: <Wifi />,
+      Cuisine: <Utensils />,
+      "T\u00e9l\u00e9vision": <Tv />,
+      Climatisation: <AirVent />,
+      Chauffage: <Heater />,
+      "Cuisine \u00e9quip\u00e9e": <CookingPot />,
+      "Machine \u00e0 laver": <WashingMachine />,
+      Jardin: <Trees />,
+      Barbecue: <Hamburger />,
+      "Chemin\u00e9e": <FlameKindling />,
+      "Po\u00eale \u00e0 bois": <Flame />,
+      "Eau chaude": <Droplets />,
+      "Toilettes s\u00e8ches": <Toilet />,
+      "Machine \u00e0 caf\u00e9": <Coffee />,
+      Piscine: <WavesLadder />,
+      "Lave-vaisselle": <WashingMachine />,
+      Kitchenette: <CookingPot />,
+      Sauna: <BrickWallFire />,
+      "Cuisine moderne": <CookingPot />,
+      Ascenseur: <SeparatorHorizontal />,
+      "Jeux enfants": <ToyBrick />,
+      Terrasse: <Trees />,
+      "Electricit\u00e9": <Cable />,
+    };
     return (
       <>
         <Header />
@@ -28,7 +75,9 @@ const Details = () => {
               </p>
               <div id="tags">
                 {tags.map((tag) => (
-                  <p className="tag" key={tag}>{tag}</p>
+                  <p className="tag" key={tag}>
+                    {tag}
+                  </p>
                 ))}
               </div>
               <div id="host-infos">
@@ -43,12 +92,18 @@ const Details = () => {
                   <h2>Description</h2>
                   <ArrowDown size={16} />
                 </button>
+                <p>{description}</p>
               </div>
               <div id="equipments">
                 <button>
                   <h2>Équipements</h2>
                   <ArrowDown size={16} />
                 </button>
+                <div>
+                  {equipments.map((equipment) => (
+                    <p key={equipment}>{icons[equipment as keyof typeof icons]}{equipment}</p>
+                  ))}
+                </div>
               </div>
             </div>
           </section>

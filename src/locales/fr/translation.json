@@ -1,0 +1,43 @@
+{
+  "error-404": "Page introuvable",
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": {
+      "title": "À propos de Kasa",
+      "story": "Notre histoire",
+      "team": "Équipe",
+      "careers": "Carrières",
+      "press": "Presse"
+    },
+    "support": {
+      "title": "Support",
+      "help-center": "Centre d'aide",
+      "contact-us": "Nous contacter",
+      "signal-problem": "Signaler un problème",
+      "404-page": "Page 404"
+    },
+    "legal": {
+      "title": "Légal",
+      "conditions": "Conditions d'utilisation",
+      "confidentiality": "Politique de confidentialité",
+      "mentions": "Mentions légales",
+      "cookies": "Cookies"
+    },
+    "rights": "© 2024 Kasa. Tous droits réservés."
+  },
+  "home": {
+    "title": "Trouvez votre logement idéal",
+    "description": "Découvrez des hébergements uniques et vivez comme un local partout dans le monde"
+  },
+  "details": {
+    "host-age": "Hôte depuis 3 ans",
+    "description-title": "Description",
+    "equipments-title": "Équipements",
+    "error-accomodation": "Logement introuvable",
+    "list-link": "Retourner à la liste des logements"
+  }
+}

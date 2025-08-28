@@ -1,304 +1,503 @@
 [
   {
     "id": "c1",
-    "title": "Appartement cosy \u00e0 Marseille",
+    "title": {
+      "fr": "Appartement cosy \u00e0 Marseille",
+      "en": "Cozy apartment in Marseille"
+    },
     "location": "Marseille, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/marseille.jpg"
     ],
-    "tags": ["Vue mer", "Climatis\u00e9"],
+    "tags": [
+      { "fr": "Vue mer", "en": "Sea view" },
+      { "fr": "Climatis\u00e9", "en": "Air-conditioned" }
+    ],
     "host": {
       "name": "Claire Dupont",
       "picture": "https://randomuser.me/api/portraits/women/10.jpg"
     },
     "rating": "4",
-    "description": "Un charmant appartement situ\u00e9 proche du Vieux-Port.",
-    "equipments": ["Wifi", "Cuisine", "T\u00e9l\u00e9vision", "Climatisation"]
+    "description": {
+      "fr": "Un charmant appartement situ\u00e9 proche du Vieux-Port.",
+      "en": "A charming apartment located near the Old Port."
+    },
+    "equipments": [
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "T\u00e9l\u00e9vision", "en": "Television" },
+      { "fr": "Climatisation", "en": "Air conditioning" }
+    ]
   },
   {
     "id": "c2",
-    "title": "Studio moderne \u00e0 Lyon",
+    "title": {
+      "fr": "Studio moderne \u00e0 Lyon",
+      "en": "Modern studio in Lyon"
+    },
     "location": "Lyon, France",
     "pictures": [
       "/images/marseille.jpg",
       "/images/paris.jpg",
       "/images/loft.jpg"
     ],
-    "tags": ["Centre-ville", "Animaux autoris\u00e9s"],
+    "tags": [
+      { "fr": "Centre-ville", "en": "City center" },
+      { "fr": "Animaux autoris\u00e9s", "en": "Pets allowed" }
+    ],
     "host": {
       "name": "Julien Martin",
       "picture": "https://randomuser.me/api/portraits/men/11.jpg"
     },
     "rating": "3",
-    "description": "Studio lumineux et bien \u00e9quip\u00e9, id\u00e9al pour un court s\u00e9jour.",
-    "equipments": ["Wifi", "Chauffage", "Cuisine \u00e9quip\u00e9e"]
+    "description": {
+      "fr": "Studio lumineux et bien \u00e9quip\u00e9, id\u00e9al pour un court s\u00e9jour.",
+      "en": "Bright and well-equipped studio, perfect for a short stay."
+    },
+    "equipments": [
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Chauffage", "en": "Heating" },
+      { "fr": "Cuisine \u00e9quip\u00e9e", "en": "Equipped kitchen" }
+    ]
   },
   {
     "id": "c3",
-    "title": "Loft design \u00e0 Bordeaux",
+    "title": {
+      "fr": "Loft design \u00e0 Bordeaux",
+      "en": "Design loft in Bordeaux"
+    },
     "location": "Bordeaux, France",
     "pictures": [
       "/images/marseille.jpg",
       "/images/paris.jpg",
       "/images/loft.jpg"
     ],
-    "tags": ["Design", "Spacieux"],
+    "tags": [
+      { "fr": "Design", "en": "Design" },
+      { "fr": "Spacieux", "en": "Spacious" }
+    ],
     "host": {
       "name": "Sophie Moreau",
       "picture": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     "rating": "5",
-    "description": "Loft spacieux avec une d\u00e9co moderne et \u00e9pur\u00e9e.",
-    "equipments": ["Machine \u00e0 laver", "Wifi", "T\u00e9l\u00e9vision"]
+    "description": {
+      "fr": "Loft spacieux avec une d\u00e9co moderne et \u00e9pur\u00e9e.",
+      "en": "Spacious loft with modern and minimalist decor."
+    },
+    "equipments": [
+      { "fr": "Machine \u00e0 laver", "en": "Washing machine" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "T\u00e9l\u00e9vision", "en": "Television" }
+    ]
   },
   {
     "id": "c4",
-    "title": "Maison de charme en Bretagne",
+    "title": {
+      "fr": "Maison de charme en Bretagne",
+      "en": "Charming house in Brittany"
+    },
     "location": "Quimper, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/chalet.jpg"
     ],
-    "tags": ["Campagne", "Famille"],
+    "tags": [
+      { "fr": "Campagne", "en": "Countryside" },
+      { "fr": "Famille", "en": "Family" }
+    ],
     "host": {
       "name": "Luc Bernard",
       "picture": "https://randomuser.me/api/portraits/men/13.jpg"
     },
     "rating": "5",
-    "description": "Maison id\u00e9ale pour des vacances en famille en pleine nature.",
-    "equipments": ["Jardin", "Cuisine", "Barbecue", "Chemin\u00e9e"]
+    "description": {
+      "fr": "Maison id\u00e9ale pour des vacances en famille en pleine nature.",
+      "en": "Ideal house for family holidays in the heart of nature."
+    },
+    "equipments": [
+      { "fr": "Jardin", "en": "Garden" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "Barbecue", "en": "Barbecue" },
+      { "fr": "Chemin\u00e9e", "en": "Fireplace" }
+    ]
   },
   {
     "id": "c5",
-    "title": "Appartement avec terrasse \u00e0 Nice",
+    "title": {
+      "fr": "Appartement avec terrasse \u00e0 Nice",
+      "en": "Apartment with terrace in Nice"
+    },
     "location": "Nice, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/pool.jpg"
     ],
-    "tags": ["Terrasse", "Vue mer"],
+    "tags": [
+      { "fr": "Terrasse", "en": "Terrace" },
+      { "fr": "Vue mer", "en": "Sea view" }
+    ],
     "host": {
       "name": "Elisa Roussel",
       "picture": "https://randomuser.me/api/portraits/women/14.jpg"
     },
     "rating": "4",
-    "description": "Appartement avec une magnifique terrasse vue mer.",
-    "equipments": ["Wifi", "Cuisine", "Climatisation"]
+    "description": {
+      "fr": "Appartement avec une magnifique terrasse vue mer.",
+      "en": "Apartment with a stunning sea-view terrace."
+    },
+    "equipments": [
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "Climatisation", "en": "Air conditioning" }
+    ]
   },
   {
     "id": "c6",
-    "title": "Cabane dans les bois",
+    "title": { "fr": "Cabane dans les bois", "en": "Cabin in the woods" },
     "location": "Annecy, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/chalet.jpg"
     ],
-    "tags": ["Nature", "Isol\u00e9"],
+    "tags": [
+      { "fr": "Nature", "en": "Nature" },
+      { "fr": "Isol\u00e9", "en": "Secluded" }
+    ],
     "host": {
       "name": "Marc Lef\u00e8vre",
       "picture": "https://randomuser.me/api/portraits/men/15.jpg"
     },
     "rating": "5",
-    "description": "Cabane rustique pour une retraite au calme.",
+    "description": {
+      "fr": "Cabane rustique pour une retraite au calme.",
+      "en": "Rustic cabin for a peaceful retreat."
+    },
     "equipments": [
-      "Po\u00eale \u00e0 bois",
-      "Eau chaude",
-      "Toilettes s\u00e8ches"
+      { "fr": "Po\u00eale \u00e0 bois", "en": "Wood stove" },
+      { "fr": "Eau chaude", "en": "Hot water" },
+      { "fr": "Toilettes s\u00e8ches", "en": "Dry toilets" }
     ]
   },
   {
     "id": "c7",
-    "title": "Appartement lumineux \u00e0 Strasbourg",
+    "title": {
+      "fr": "Appartement lumineux \u00e0 Strasbourg",
+      "en": "Bright apartment in Strasbourg"
+    },
     "location": "Strasbourg, France",
     "pictures": [
       "/images/marseille.jpg",
       "/images/paris.jpg",
       "/images/loft.jpg"
     ],
-    "tags": ["Centre-ville", "Balcon"],
+    "tags": [
+      { "fr": "Centre-ville", "en": "City center" },
+      { "fr": "Balcon", "en": "Balcony" }
+    ],
     "host": {
       "name": "Camille Dubois",
       "picture": "https://randomuser.me/api/portraits/women/16.jpg"
     },
     "rating": "3",
-    "description": "Appartement spacieux avec balcon ensoleill\u00e9.",
+    "description": {
+      "fr": "Appartement spacieux avec balcon ensoleill\u00e9.",
+      "en": "Spacious apartment with a sunny balcony."
+    },
     "equipments": [
-      "Wifi",
-      "T\u00e9l\u00e9vision",
-      "Cuisine",
-      "Machine \u00e0 caf\u00e9"
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "T\u00e9l\u00e9vision", "en": "Television" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "Machine \u00e0 caf\u00e9", "en": "Coffee machine" }
     ]
   },
   {
     "id": "c8",
-    "title": "Maison avec piscine \u00e0 Aix-en-Provence",
+    "title": {
+      "fr": "Maison avec piscine \u00e0 Aix-en-Provence",
+      "en": "House with pool in Aix-en-Provence"
+    },
     "location": "Aix-en-Provence, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/pool.jpg"
     ],
-    "tags": ["Piscine", "Luxe"],
+    "tags": [
+      { "fr": "Piscine", "en": "Pool" },
+      { "fr": "Luxe", "en": "Luxury" }
+    ],
     "host": {
       "name": "Henri Laurent",
       "picture": "https://randomuser.me/api/portraits/men/17.jpg"
     },
     "rating": "4",
-    "description": "Grande maison avec piscine et jardin arbor\u00e9.",
+    "description": {
+      "fr": "Grande maison avec piscine et jardin arboré.",
+      "en": "Large house with swimming pool and landscaped garden."
+    },
     "equipments": [
-      "Piscine",
-      "Cuisine \u00e9quip\u00e9e",
-      "Climatisation",
-      "Lave-vaisselle"
+      { "fr": "Piscine", "en": "Pool" },
+      { "fr": "Cuisine \u00e9quip\u00e9e", "en": "Equipped kitchen" },
+      { "fr": "Climatisation", "en": "Air conditioning" },
+      { "fr": "Lave-vaisselle", "en": "Dishwasher" }
     ]
   },
   {
     "id": "c9",
-    "title": "Studio \u00e9tudiant \u00e0 Lille",
+    "title": {
+      "fr": "Studio \u00e9tudiant \u00e0 Lille",
+      "en": "Student studio in Lille"
+    },
     "location": "Lille, France",
     "pictures": [
       "/images/marseille.jpg",
       "/images/paris.jpg",
       "/images/loft.jpg"
     ],
-    "tags": ["Pratique", "\u00c9conomique"],
+    "tags": [
+      { "fr": "Pratique", "en": "Practical" },
+      { "fr": "\u00c9conomique", "en": "Affordable" }
+    ],
     "host": {
       "name": "Anna Petit",
       "picture": "https://randomuser.me/api/portraits/women/18.jpg"
     },
     "rating": "3",
-    "description": "Studio compact, parfait pour les \u00e9tudiants.",
-    "equipments": ["Wifi", "Kitchenette", "Chauffage"]
+    "description": {
+      "fr": "Studio compact, parfait pour les \u00e9tudiants.",
+      "en": "Compact studio, perfect for students."
+    },
+    "equipments": [
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Kitchenette", "en": "Kitchenette" },
+      { "fr": "Chauffage", "en": "Heating" }
+    ]
   },
   {
     "id": "c10",
-    "title": "Chalet alpin \u00e0 Chamonix",
+    "title": {
+      "fr": "Chalet alpin \u00e0 Chamonix",
+      "en": "Alpine chalet in Chamonix"
+    },
     "location": "Chamonix, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/chalet.jpg"
     ],
-    "tags": ["Ski", "Montagne"],
+    "tags": [
+      { "fr": "Ski", "en": "Ski" },
+      { "fr": "Montagne", "en": "Mountain" }
+    ],
     "host": {
       "name": "Olivier Roche",
       "picture": "https://randomuser.me/api/portraits/men/19.jpg"
     },
     "rating": "5",
-    "description": "Chalet typique avec vue sur les montagnes enneig\u00e9es.",
-    "equipments": ["Chemin\u00e9e", "Sauna", "Wifi", "Cuisine"]
+    "description": {
+      "fr": "Chalet typique avec vue sur les montagnes enneig\u00e9es.",
+      "en": "Traditional chalet with views of snow-capped mountains."
+    },
+    "equipments": [
+      { "fr": "Chemin\u00e9e", "en": "Fireplace" },
+      { "fr": "Sauna", "en": "Sauna" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Cuisine", "en": "Kitchen" }
+    ]
   },
   {
     "id": "c11",
-    "title": "Appartement chic \u00e0 Paris",
+    "title": {
+      "fr": "Appartement chic \u00e0 Paris",
+      "en": "Chic apartment in Paris"
+    },
     "location": "Paris, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/paris.jpg"
     ],
-    "tags": ["Tour Eiffel", "Design"],
+    "tags": [
+      { "fr": "Tour Eiffel", "en": "Eiffel Tower" },
+      { "fr": "Design", "en": "Design" }
+    ],
     "host": {
       "name": "Nina Garnier",
       "picture": "https://randomuser.me/api/portraits/women/20.jpg"
     },
     "rating": "4",
-    "description": "Appartement raffin\u00e9 \u00e0 deux pas de la Tour Eiffel.",
-    "equipments": ["Climatisation", "Wifi", "Cuisine moderne", "Ascenseur"]
+    "description": {
+      "fr": "Appartement raffin\u00e9 \u00e0 deux pas de la Tour Eiffel.",
+      "en": "Elegant apartment just steps away from the Eiffel Tower."
+    },
+    "equipments": [
+      { "fr": "Climatisation", "en": "Air conditioning" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Cuisine moderne", "en": "Modern kitchen" },
+      { "fr": "Ascenseur", "en": "Elevator" }
+    ]
   },
   {
     "id": "c12",
-    "title": "Maison familiale \u00e0 Nantes",
+    "title": {
+      "fr": "Maison familiale \u00e0 Nantes",
+      "en": "Family house in Nantes"
+    },
     "location": "Nantes, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/marseille.jpg"
     ],
-    "tags": ["Famille", "Jardin"],
+    "tags": [
+      { "fr": "Famille", "en": "Family" },
+      { "fr": "Jardin", "en": "Garden" }
+    ],
     "host": {
       "name": "Pauline Marchand",
       "picture": "https://randomuser.me/api/portraits/men/21.jpg"
     },
     "rating": "5",
-    "description": "Maison spacieuse id\u00e9ale pour un s\u00e9jour en famille.",
-    "equipments": ["Jeux enfants", "Wifi", "Cuisine", "TV"]
+    "description": {
+      "fr": "Maison spacieuse id\u00e9ale pour un s\u00e9jour en famille.",
+      "en": "Spacious house, ideal for a family stay."
+    },
+    "equipments": [
+      { "fr": "Jeux enfants", "en": "Kids' games" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "TV", "en": "TV" }
+    ]
   },
   {
     "id": "c13",
-    "title": "Appartement minimaliste \u00e0 Montpellier",
+    "title": {
+      "fr": "Appartement minimaliste \u00e0 Montpellier",
+      "en": "Minimalist apartment in Montpellier"
+    },
     "location": "Montpellier, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/paris.jpg"
     ],
-    "tags": ["Minimaliste", "Clair"],
+    "tags": [
+      { "fr": "Minimaliste", "en": "Minimalist" },
+      { "fr": "Clair", "en": "Bright" }
+    ],
     "host": {
       "name": "Tom Besson",
       "picture": "https://randomuser.me/api/portraits/women/22.jpg"
     },
     "rating": "5",
-    "description": "Appartement moderne \u00e0 la d\u00e9co \u00e9pur\u00e9e.",
-    "equipments": ["Cuisine \u00e9quip\u00e9e", "Wifi", "Machine \u00e0 laver"]
+    "description": {
+      "fr": "Appartement moderne \u00e0 la d\u00e9co \u00e9pur\u00e9e.",
+      "en": "Modern apartment with minimalist decor."
+    },
+    "equipments": [
+      { "fr": "Cuisine \u00e9quip\u00e9e", "en": "Equipped kitchen" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Machine \u00e0 laver", "en": "Washing machine" }
+    ]
   },
   {
     "id": "c14",
-    "title": "Riad traditionnel \u00e0 Marrakech",
+    "title": {
+      "fr": "Riad traditionnel \u00e0 Marrakech",
+      "en": "Traditional riad in Marrakech"
+    },
     "location": "Marrakech, Maroc",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/marseille.jpg"
     ],
-    "tags": ["Exotique", "Traditionnel"],
+    "tags": [
+      { "fr": "Exotique", "en": "Exotic" },
+      { "fr": "Traditionnel", "en": "Traditional" }
+    ],
     "host": {
       "name": "Yasmine A\u00eft",
       "picture": "https://randomuser.me/api/portraits/men/23.jpg"
     },
     "rating": "3",
-    "description": "Riad charmant dans la m\u00e9dina avec patio central.",
-    "equipments": ["Terrasse", "Climatisation", "Wifi"]
+    "description": {
+      "fr": "Riad charmant dans la m\u00e9dina avec patio central.",
+      "en": "Charming riad in the medina with central patio."
+    },
+    "equipments": [
+      { "fr": "Terrasse", "en": "Terrace" },
+      { "fr": "Climatisation", "en": "Air conditioning" },
+      { "fr": "Wifi", "en": "WiFi" }
+    ]
   },
   {
     "id": "c15",
-    "title": "Cabane sur pilotis \u00e0 Arcachon",
+    "title": {
+      "fr": "Cabane sur pilotis \u00e0 Arcachon",
+      "en": "Stilt cabin in Arcachon"
+    },
     "location": "Arcachon, France",
     "pictures": [
       "/images/chamonix.jpg",
       "/images/loft.jpg",
       "/images/marseille.jpg"
     ],
-    "tags": ["Original", "Nature"],
+    "tags": [
+      { "fr": "Original", "en": "Original" },
+      { "fr": "Nature", "en": "Nature" }
+    ],
     "host": {
       "name": "Jean-Pierre No\u00ebl",
       "picture": "https://randomuser.me/api/portraits/women/24.jpg"
     },
     "rating": "4",
-    "description": "Cabane insolite avec vue sur le bassin d'Arcachon.",
-    "equipments": ["Eau chaude", "Electricit\u00e9", "Terrasse"]
+    "description": {
+      "fr": "Cabane insolite avec vue sur le bassin d'Arcachon.",
+      "en": "Unique cabin with a view over Arcachon Bay."
+    },
+    "equipments": [
+      { "fr": "Eau chaude", "en": "Hot water" },
+      { "fr": "Electricit\u00e9", "en": "Electricity" },
+      { "fr": "Terrasse", "en": "Terrace" }
+    ]
   },
   {
     "id": "c16",
-    "title": "Appartement r\u00e9tro \u00e0 Toulouse",
+    "title": {
+      "fr": "Appartement r\u00e9tro \u00e0 Toulouse",
+      "en": "Retro apartment in Toulouse"
+    },
     "location": "Toulouse, France",
     "pictures": [
       "/images/marseille.jpg",
       "/images/paris.jpg",
       "/images/loft.jpg"
     ],
-    "tags": ["Vintage", "Charmant"],
+    "tags": [
+      { "fr": "Vintage", "en": "Vintage" },
+      { "fr": "Charmant", "en": "Charming" }
+    ],
     "host": {
       "name": "Laura Perrin",
       "picture": "https://randomuser.me/api/portraits/men/25.jpg"
     },
     "rating": "5",
-    "description": "Appartement color\u00e9 au style r\u00e9tro ann\u00e9es 70.",
-    "equipments": ["T\u00e9l\u00e9vision", "Cuisine", "Wifi", "Chauffage"]
+    "description": {
+      "fr": "Appartement color\u00e9 au style r\u00e9tro ann\u00e9es 70.",
+      "en": "Colorful apartment with a 1970s retro style."
+    },
+    "equipments": [
+      { "fr": "T\u00e9l\u00e9vision", "en": "Television" },
+      { "fr": "Cuisine", "en": "Kitchen" },
+      { "fr": "Wifi", "en": "WiFi" },
+      { "fr": "Chauffage", "en": "Heating" }
+    ]
   }
 ]

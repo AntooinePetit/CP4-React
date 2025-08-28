@@ -5,6 +5,7 @@ footer {
   padding: 50px 0;
 
   .container-1280 {
+    position: relative;
     padding: 0 15px;
     div {
       display: flex;
@@ -35,6 +36,23 @@ footer {
       padding-top: 50px;
       border-top: 1px solid #374151;
     }
+
+    #languages {
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+      margin: 0;
+      gap: 10px;
+
+      button {
+        background: none;
+        border: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
 
@@ -48,6 +66,13 @@ footer {
         ul {
           width: 100%;
         }
+      }
+
+      #languages {
+        position: relative;
+        flex-direction: row;
+        justify-self: center;
+        margin-top: 20px;
       }
     }
   }

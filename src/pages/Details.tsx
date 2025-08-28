@@ -23,6 +23,7 @@ import {
   Wifi,
 } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
@@ -60,10 +61,11 @@ const Details = () => {
   const [isActiveDesc, setActiveDesc] = useState(false);
   const [isActiveEquip, setActiveEquip] = useState(false);
   const acco = data.find((item) => item.id === id);
+  const { t, i18n } = useTranslation();
   if (acco) {
     const { title, location, pictures, tags, host, description, equipments } =
       acco;
-    document.title = title;
+    document.title = title[i18n.language as "fr" | "en"];
 
     const showDesc = () => {
       setActiveDesc(!isActiveDesc);
@@ -81,15 +83,15 @@ const Details = () => {
           <section id="detail">
             <Carousel pictures={pictures} />
             <div id="infos">
-              <h1>{title}</h1>
+              <h1>{title[i18n.language as "fr" | "en"]}</h1>
               <p>
                 <MapPin size={14} />
                 {location}
               </p>
               <div id="tags">
                 {tags.map((tag) => (
-                  <p className="tag" key={tag}>
-                    {tag}
+                  <p className="tag" key={tag[i18n.language as "fr" | "en"]}>
+                    {tag[i18n.language as "fr" | "en"]}
                   </p>
                 ))}
               </div>
@@ -97,23 +99,23 @@ const Details = () => {
                 <img src={host.picture} alt={`Photo de ${host.name}`} />
                 <div>
                   <h3>{host.name}</h3>
-                  <p>Hôte depuis 3 ans</p>
+                  <p>{t("details.host-age")}</p>
                 </div>
               </div>
               <div id="description" className={isActiveDesc ? "active" : ""}>
                 <button onClick={showDesc}>
-                  <h2>Description</h2>
+                  <h2>{t("details.description-title")}</h2>
                   {isActiveDesc ? (
                     <ArrowUp size={16} />
                   ) : (
                     <ArrowDown size={16} />
                   )}
                 </button>
-                <p>{description}</p>
+                <p>{description[i18n.language as "fr" | "en"]}</p>
               </div>
               <div id="equipments" className={isActiveEquip ? "active" : ""}>
                 <button onClick={showEquip}>
-                  <h2>Équipements</h2>
+                  <h2>{t("details.equipments-title")}</h2>
                   {isActiveEquip ? (
                     <ArrowUp size={16} />
                   ) : (
@@ -122,13 +124,13 @@ const Details = () => {
                 </button>
                 <div>
                   {equipments.map((equipment) => (
-                    <p key={equipment}>
+                    <p key={equipment[i18n.language as "fr" | "en"]}>
                       {
                         icons[
-                          equipment as keyof typeof icons
+                          equipment["fr"] as keyof typeof icons
                         ] /* Sécurité de typage (nécessaire en TS) */
                       }
-                      {equipment}
+                      {equipment[i18n.language as "fr" | "en"]}
                     </p>
                   ))}
                 </div>
@@ -148,8 +150,8 @@ const Details = () => {
 
         <main>
           <section id="not-found">
-            <h1>Logement introuvable</h1>
-            <Link to="/">Retourner à la liste des logements</Link>
+            <h1>{t("details.error-accomodation")}</h1>
+            <Link to="/">{t("details.list-link")}</Link>
           </section>
         </main>
 

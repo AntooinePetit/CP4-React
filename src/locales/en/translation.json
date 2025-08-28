@@ -1,0 +1,43 @@
+{
+  "error-404": "Page not found",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": {
+      "title": "About Kasa",
+      "story": "Our story",
+      "team": "Team",
+      "careers": "Careers",
+      "press": "Press"
+    },
+    "support": {
+      "title": "Support",
+      "help-center": "Help Center",
+      "contact-us": "Contact us",
+      "signal-problem": "Report a problem",
+      "404-page": "404 page"
+    },
+    "legal": {
+      "title": "Legal",
+      "conditions": "Terms of use",
+      "confidentiality": "Privacy policy",
+      "mentions": "Legal notice",
+      "cookies": "Cookies"
+    },
+    "rights": "© 2024 Kasa. All rights reserved."
+  },
+  "home": {
+    "title": "Find your ideal accommodation",
+    "description": "Discover unique stays and live like a local anywhere in the world"
+  },
+  "details": {
+    "host-age": "Host for 3 years",
+    "description-title": "Description",
+    "equipments-title": "Amenities",
+    "error-accomodation": "Accommodation not found",
+    "list-link": "Back to accommodations list"
+  }
+}

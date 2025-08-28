@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../styles/components/NavBar.scss";
 
@@ -6,17 +7,18 @@ interface NavBarProps {
 }
 
 const NavBar = ({ setClass }: NavBarProps) => {
+  const { t } = useTranslation();
   return (
     <nav className={setClass ? "active" : ""}>
       <ul>
         <li>
-          <Link to="/">Accueil</Link>
+          <Link to="/">{t("nav.home")}</Link>
         </li>
         <li>
-          <Link to="#">À propos</Link>
+          <Link to="#">{t("nav.about")}</Link>
         </li>
         <li>
-          <Link to="#">Contact</Link>
+          <Link to="#">{t("nav.contact")}</Link>
         </li>
       </ul>
     </nav>

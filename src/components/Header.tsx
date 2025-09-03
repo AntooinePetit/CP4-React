@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 /**
  * Composant de header avec gestion du menu responsive
  * 
- * @returns {JSX.element} - Le rendu du header 
+ * @returns Le rendu du header 
  * 
  * @example
  * // Affichage du header
@@ -16,7 +16,6 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   const [isActive, setActive] = useState(false);
-  /** @type {function} */
   const showNav = () => {
     setActive(!isActive);
   };

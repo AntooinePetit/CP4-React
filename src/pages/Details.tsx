@@ -31,6 +31,11 @@ import Header from "../components/Header";
 import data from "../data/logements.json";
 import "../styles/components/Details.scss";
 
+
+/**
+ * La page d'accueil du site
+ * @returns Un affichage conditionnel des informations d'un logement ou une page d'erreur en cas de mauvais id dans l'url
+ */
 const Details = () => {
   const icons = {
     Wifi: <Wifi />,

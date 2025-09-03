@@ -1,6 +1,14 @@
 import { useTranslation } from "react-i18next";
 import "../styles/components/Hero.scss";
 
+/**
+ * Section Hero de la page d'accueil
+ * @returns Affichage du Hero sur la page d'accueil
+ * 
+ * @example
+ * // Affichage du hero
+ * <Hero />
+ */
 const Hero = () => {
   const { t } = useTranslation();
   return (

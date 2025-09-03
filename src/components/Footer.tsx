@@ -3,6 +3,16 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../styles/components/Footer.scss";
 
+/**
+ * Composant d'affichage du footer
+ * 
+ * @returns Le rendu du footer avec les éléments de traduction
+ * 
+ * @example
+ * // Affichage du Footer
+ * <Footer />
+ */
+
 const Footer = () => {
   const { t, i18n } = useTranslation();
 

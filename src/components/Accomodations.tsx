@@ -2,6 +2,14 @@ import data from "../data/logements.json";
 import "../styles/components/Accomodations.scss";
 import Card from "./Card";
 
+/**
+ * Composant affichant tous les logements disponibles
+ * @returns Affichage des logements disponibles
+ * 
+ * @example
+ * // Affichage des logements
+ * <Accomodations />
+ */
 const Accomodations = () => {
   return (
     <section id="accomodations">

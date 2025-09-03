@@ -3,6 +3,10 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/components/NotFound.scss";
 
+/**
+ * La page d'erreur 404 du site
+ * @returns Une page d'erreur
+ */
 const NotFound = () => {
   const { t } = useTranslation();
   document.title = t("error-404");

@@ -33,7 +33,7 @@ import "../styles/components/Details.scss";
 
 
 /**
- * La page d'accueil du site
+ * La page de détail d'un logement spécifique
  * @returns Un affichage conditionnel des informations d'un logement ou une page d'erreur en cas de mauvais id dans l'url
  */
 const Details = () => {

@@ -6,6 +6,18 @@ interface NavBarProps {
   setClass?: boolean;
 }
 
+/**
+ * Menu de navigation pour le header
+ * 
+ * @param {Object} NavBarProps - Le composant accepte setClass en tant que props
+ * @param {boolean} NavBarProps.setClass - Valeur d'affichage conditionnel du menu de navigation en version responsive mobile
+ * @returns {JSX.element} - Le rendu du composant menu de navigation
+ * 
+ * @example 
+ * // Affichage du menu de navigation
+ * <NavBar setClass={isActive} />
+ */
+
 const NavBar = ({ setClass }: NavBarProps) => {
   const { t } = useTranslation();
   return (

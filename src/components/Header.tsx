@@ -4,8 +4,19 @@ import { Link } from "react-router-dom";
 import "../styles/components/Header.scss";
 import NavBar from "./NavBar";
 
+/**
+ * Composant de header avec gestion du menu responsive
+ * 
+ * @returns {JSX.element} - Le rendu du header 
+ * 
+ * @example
+ * // Affichage du header
+ * <Header />
+ */
+
 const Header = () => {
   const [isActive, setActive] = useState(false);
+  /** @type {function} */
   const showNav = () => {
     setActive(!isActive);
   };
